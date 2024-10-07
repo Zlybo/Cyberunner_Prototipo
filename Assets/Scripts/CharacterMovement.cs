@@ -29,7 +29,7 @@ public class CharacterMovement : MonoBehaviour
             // Asegura que el personaje no esté "flotando" cuando está en el suelo
             move.y = -1f;
 
-            if (Input.GetKeyDown(KeyCode.UpArrow))
+            if (Input.GetKeyDown(KeyCode.Space))
             {
                 move.y = jump_force;
             }
